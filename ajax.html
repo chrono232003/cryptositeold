@@ -1,0 +1,26 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+var url = "https://en.wikipedia.org/w/api.php?action=query&titles=Doom&prop=revisions&rvprop=content&format=json&formatversion=2&callback=?";
+var url2 = ""
+
+$.ajax({
+        type: "GET",
+        url: url,
+        contentType: "application/json; charset=utf-8",
+        async: false,
+        dataType: "json",
+        success: function (data, textStatus, jqXHR) {
+            document.getElementById("test").innerHTML = data.query.pages[0].revisions[0].content;
+			console.log(data);
+        },
+        error: function (errorMessage) {
+        }
+    });
+
+</script>
+<body>
+<div id = "test">
+</div>
+</body>
+</html>

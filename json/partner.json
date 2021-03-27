@@ -1,0 +1,36 @@
+partners=[{
+  "name": "Paxful",
+  "description": "Coinbase is the biggest and most respected Bitcoin platform in the United States. It offers both an exchange and wallet in one, making it one of the easiest places to start with Bitcoin. Coinbase also supports Bitcoin Cash, Ethereum and Litecoin.",
+  "imageLink": "img/Paxful.png",
+  "affiliateLink":"https://paxful.com/?r=2xdVKEyXEYr"
+},
+{
+  "name": "Coin Mama",
+  "description": "Coinbase is the biggest and most respected Bitcoin platform in the United States. It offers both an exchange and wallet in one, making it one of the easiest places to start with Bitcoin. Coinbase also supports Bitcoin Cash, Ethereum and Litecoin.",
+  "imageLink": "img/Coinmama.jpg",
+  "affiliateLink":"https://go.coinmama.com/visit/?bta=59624&nci=5388"
+},
+{
+  "name": "Coinbase",
+  "description": "Coinbase is the biggest and most respected Bitcoin platform in the United States. It offers both an exchange and wallet in one, making it one of the easiest places to start with Bitcoin. Coinbase also supports Bitcoin Cash, Ethereum and Litecoin.",
+  "imageLink": "img/Coinbase.jpg",
+  "affiliateLink":"#"
+},
+{
+  "name": "Robin Hood",
+  "description": "Robinhood started as a fee-free stock brokerage and recently expanded into the world of digital currencies. The best part: No fees! You can buy and sell Bitcoin and other digital currencies completely fee-free on this platform. Since February 2018, Robinhood supports Bitcoin and Ethereum trades and market data for another 15 currencies. Robinhood Crypto is technically a separate account from a Robinhood stock account. Crypto accounts support market and limit orders.",
+  "imageLink": "img/Robinhood.jpg",
+  "affiliateLink":"#"
+},
+{
+  "name": "Cash App",
+  "description": "This is another mobile app where you can buy and sell Bitcoin with no fees. The Cash app is already great for sending money to family and friends for free (similar to Venmo). But adding in free Bitcoin buying and selling puts the Cash app near the top of the places to buy Bitcoin list.",
+  "imageLink": "img/Cashapp.png",
+  "affiliateLink":"#"
+},
+{
+  "name": "Coin Exchange",
+  "description": "CoinExchange is another low-cost exchange with most fees pegged at 0.15 percent to turn your Bitcoin into other coins. CoinExchange offers a huge number of coins on its platform, perhaps the biggest lists of coins supported by any platform on this list.",
+  "imageLink": "img/CoinExchange.png",
+  "affiliateLink":"#"
+}]

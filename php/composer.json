@@ -1,0 +1,5 @@
+{
+    "require": {
+        "cryptocontrol/crypto-news-api": "^2.3"
+    }
+}

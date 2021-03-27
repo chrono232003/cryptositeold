@@ -1,0 +1,16 @@
+
+<script>
+var url = "https://en.wikipedia.org/w/api.php?action=query&titles=3DWorldBoxing&prop=revisions&rvprop=content&format=json&formatversion=2";
+
+$.ajax( {
+    url: url,
+    data: "",
+    dataType: 'json',
+    type: 'POST',
+    headers: { 'Api-User-Agent': 'Example/1.0' },
+    success: function(data) {
+       console.log("success");
+    }
+} );
+
+</script>

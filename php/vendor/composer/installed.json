@@ -1,0 +1,37 @@
+[
+    {
+        "name": "cryptocontrol/crypto-news-api",
+        "version": "2.3.0",
+        "version_normalized": "2.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cryptocontrol/php-api.git",
+            "reference": "d723e0e908a8951c26e8f409c49d01b3e75f4f81"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/cryptocontrol/php-api/zipball/d723e0e908a8951c26e8f409c49d01b3e75f4f81",
+            "reference": "d723e0e908a8951c26e8f409c49d01b3e75f4f81",
+            "shasum": ""
+        },
+        "time": "2018-08-23T16:24:50+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "CryptoControl": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Steven Enamakel",
+                "email": "enamakel@cryptocontrol.io"
+            }
+        ],
+        "description": "Client to get a crypto newsfeed in your app from the CryptoControl API"
+    }
+]

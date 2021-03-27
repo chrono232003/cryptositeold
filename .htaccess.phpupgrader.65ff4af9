@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^/?game/(.*?)/?$ /game.php?Game=$1 [L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /game\.php\?Game=([^\&\ ]+)
+RewriteRule ^/?game\.php$ /game/%1? [L,R=301]
+
+
+RewriteRule ^/?search/(.*?)/?$ /search.php?gamesbyletter=$1 [L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /search\.php\?gamesbyletter=([^\&\ ]+)
+RewriteRule ^/?search\.php$ /search/%1? [L,R=301]
+
+RewriteRule ^/?search/(.*?)/?$ /search.php?gamesbyletter=$1 [L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /search\.php\?gamesbyletter=([^\&\ ]+)
+RewriteRule ^/?search\.php$ /search/%1? [L,R=301]
+
+RewriteRule ^/?categories/(.*?)/?$ /categories.php?cat=$1 [L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /categories\.php\?cat=([^\&\ ]+)
+RewriteRule ^/?categories\.php$ /categories/%1? [L,R=301]
